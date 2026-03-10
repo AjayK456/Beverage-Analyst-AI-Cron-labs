@@ -15,3 +15,5 @@ pip install -r requirements.txt
 python setup_data.py
 python ingest_data.py
 streamlit run app.py
+Environment Variables: Create a file named .env in the root directory and add your API key:
+GOOGLE_API_KEY=your_actual_key_here
